@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+  
+aside {
+    height: 100vh;
+    background-color: #ffffff;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+span[name="titulo-musical"] {
+    text-transform: uppercase;
+}
+
+.krona {
+    font-family: "Krona One", serif;
+    font-style: normal;
+}
+  
+.montserrat {
+    font-family: "Montserrat", serif;
+    font-style: normal;
+}
+  
+.roboto {
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+  
+.regular {
+    font-weight: 400;
+}
+  
+.bold {
+    font-weight: 600;
+}
+  
+.bolder {
+    font-weight: 800;
+}
+  
+.color-negro {
+    color: var(--color-negro);
+}
+  
+.color-gris {
+    color: var(--color-gris);
+}
+  
+.color-blanco {
+    color: var(--color-blanco);
+}
+  
+.color-violeta {
+    color: var(--color-violeta)
+}
+  
+.color-rojo {
+    color: var(--color-rojo);
+}
+
+.color-naranja {
+    color: var(--color-naranja);
+}
+
+.color-azul {
+  color: var(--color-azul);
+}
+  
+.font-size-14 {
+    font-size: 14px;
+}
+  
+.font-size-34 {
+    font-size: 34px;
+}
