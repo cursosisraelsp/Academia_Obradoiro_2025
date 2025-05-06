@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+    .buscador{
+      max-width: 600px;
+      padding: 30px;
+    }
+  }
