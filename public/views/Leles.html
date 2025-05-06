@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Carpeta/variables.css" />
+    <link rel="stylesheet" href="./css/Carpeta/estilo.movil.css" />
+    <link rel="stylesheet" href="./css/Carpeta/estilo.tablet.css" />
+    <link rel="stylesheet" href="./css/Carpeta/estilo.pc.css" />
+    <link rel="stylesheet" href="./css/Carpeta/style.css" />
+  </head>
+  <body>
+    <main class="centrar-elementos-en-columna">
+      <header><span>Teachers</span></header>
+      <section class="buscador-and-new-teacher">
+        <div class="buscador">
+          <div class="input-buscador">
+            <input type="text" placeholder="Introduce o teacher" />
+            <img
+              src="./imaxes/iconos/Lupa.svg"
+              alt="imaxen lupa"
+              class="lupa"
+            />
+          </div>
+          <div class="filtro-actividade-teacher">
+            <span>Sort by <span>Last activity</span></span>
+            <img src="./imaxes/iconos/Frecha_abaixo.svg" alt="Frecha_abaixo" />
+          </div>
+        </div>
+        <div class="new-teacher">
+          <img src="./imaxes/iconos/cruz.svg" alt="cruz" />
+          <span>New Teacher</span>
+        </div>
+      </section>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxen-teacher">
+            <img src="./imaxes/usuarios/teachers/pepe.svg" alt="teacher" />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span class="roboto-bolder">Nathan Frost</span>
+            <span class="roboto-soft cor-soft">14 students</span>
+          </div>
+          <div class="actividade-teacher">
+            <span class="roboto-bolder">Last activity on</span>
+            <span class="roboto-soft cor-soft">June 5, 2022 - 11:45 AM</span>
+          </div>
+        </div>
+        <div class="observacions-teacher">
+          <span class="roboto-soft cor-soft"
+            >Got rejected when trying upload a video to Patri...</span
+          >
+          <div class="advertencia-teacher">
+            <img src="./imaxes/iconos/ShieldWarning.svg" /><span
+              name="texto-advertencia-teacher"
+              class="roboto-bolder"
+              >Part 5 (10:25)</span
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <aside>
+      <section class="parte-etiquetas-logos">
+        <div class="primer-elemento">
+          <img src="./imaxes/iconos/NotaMusical.svg" alt="nota musical" />
+          <span name="titulo-musical" class="krona-one-regular">sweetnote</span>
+        </div>
+        <div class="elemento-logo-academia">
+          <div class="imaxen-figma">
+            <img src="./imaxes/iconos/LogoFigma.svg" alt="logo de figma" />
+          </div>
+          <div class="textos-elemento-logo-academia">
+            <span name="parte-logos">Academy Name</span>
+            <span name="parte-logos">Admin</span>
+          </div>
+        </div>
+      </section>
+      <hr />
+
+      <section class="seccion-navegacion">
+        <nav class="navegacion">
+          <a href="#">
+            <img src="./imaxes/iconos/CirclesFour.svg" alt="imaxen" />
+            <span name="seccion-navegacion">Dashboard</span>
+          </a>
+          <a href="#">
+            <img src="./imaxes/iconos/ChalkboardTeacher.svg" alt="imaxen" />
+            <span name="seccion-navegacion">Teachers</span> </a
+          ><a href="#">
+            <img src="./imaxes/iconos/GraduationCap.svg" alt="imaxen" />
+            <span name="seccion-navegacion">Students</span> </a
+          ><a href="#">
+            <img src="./imaxes/iconos/GearSix.svg" alt="imaxen" />
+            <span name="seccion-navegacion">Settings</span>
+          </a>
+        </nav>
+
+        <div class="logout">
+          <img src="./imaxes/iconos/iconoLogout.svg" alt="icono logout" />
+          <span name="logout">Log Out</span>
+        </div>
+      </section>
+    </aside>
+  </body>
+</html>

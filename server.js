@@ -24,6 +24,9 @@ app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/teachers.html"))
 })
 
+app.get("/Leles",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/Leles.html"))
+})
 
 
 //START SERVER
