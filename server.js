@@ -23,7 +23,10 @@ app.get("/index",(req,res)=>{
 app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/teachers.html"))
 })
-
+//<a href="/index(profesor)">enlace</a>
+app.get("/index_profesor",(req,res)=>{
+    res.sendFile(path.join(__dirname, "./public/views/index_profesor.html"))}
+)
 
 
 //START SERVER
