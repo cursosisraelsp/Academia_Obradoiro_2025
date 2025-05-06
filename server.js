@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // GETTERS
 // <a href="/ivan">enlace</a>
 app.get("/ivan",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./public/views/ivan.html"))
+                 
 })
 // <a href="/password">enlace</a>
 app.get("/password",(req,res)=>{
@@ -23,7 +23,9 @@ app.get("/index",(req,res)=>{
 app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/teachers.html"))
 })
-
+app.get("/isis",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/isis.html"))
+})
 
 
 //START SERVER

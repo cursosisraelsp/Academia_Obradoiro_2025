@@ -1,0 +1,99 @@
+:root {
+  --box-shadow-test: 0px 5px 6px 5px #977777;
+  --margin-test: 5px;
+  --border-radius-test: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  border: 5px solid orange;
+  display: flex;
+}
+
+aside {
+  height: 100vh;
+  border: 2px solid rgb(242, 234, 252);
+  background-color: aliceblue;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  color: rgb(58, 58, 58);
+  text-decoration: none;
+  gap: 10px;
+}
+.krona-one-regular {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.krona-dos {
+  font-family: "Krona One", serif;
+  font-weight: regular;
+  font-style: normal;
+  font-size: small;
+  color: #726b76;
+}
+
+.roboto-bolder {
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-soft {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.cor-soft {
+  color: #726b76;
+}
+
+.black {
+  color: black;
+}
+
+span[name="titulo-musical"] {
+  text-transform: uppercase;
+}
+.box-shadow-xenerico {
+  box-shadow: var(--box-shadow-test);
+  /*margin: var(--margin-test);*/
+  border-radius: var(--border-radius-test);
+}
+
+.logout {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 500;
+}
+
+img[name="iconos"] {
+  width: 15px;
+  height: 15px;
+}
+
+img[name="logo-academia"] {
+  width: 48px;
+  height: 48px;
+}
+span[name="enfasis-black"] {
+  color: black;
+}
+
+span[name="enfasis-violeta"] {
+  color: rgba(164, 92, 243, 1);
+}
