@@ -24,7 +24,9 @@ app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/teachers.html"))
 })
 
-
+app.get("/index-Marina",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/index-Marina.html"))
+})
 
 //START SERVER
 app.listen(3000, function () {

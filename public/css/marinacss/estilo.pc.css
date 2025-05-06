@@ -1,0 +1,285 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.estilo-div {
+  display: flex;
+  justify-content: space-between;
+  width: 244px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.estilo-img {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 3px;
+}
+
+.estilo-input {
+  border: transparent;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+.estilo-filtro {
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+
+.estilo-shadow {
+}
+
+.estilo-shadow:hover,
+.estilo-shadow:focus {
+  box-shadow: 1px 4px 5px 1px #808980;
+}
+
+.estilo-distribucion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cor-marron-claro {
+  background-color: #a3937f;
+}
+
+.cor-azul-auga {
+  background-color: aqua;
+}
+
+.cor-gray {
+  color: gray;
+}
+
+.cor-black {
+  color: black;
+}
+
+.anchura-test-borrar {
+  width: 145px;
+}
+
+.anchura-test-borrar-2 {
+  width: 200px;
+}
+
+.anchura-test-borrar-3 {
+  width: 460px;
+}
+
+.alineo-no-centro {
+  align-items: center;
+}
+
+.estilo-boton-teacher {
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+}
+
+@media (width >= 1024px) {
+  .centrar-elementos-en-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  body {
+    background-color: rgb(163, 216, 128);
+  }
+
+  header {
+    height: 160px;
+    background-color: rgb(132, 132, 235);
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  aside {
+    order: 1;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .parte-etiquetas-logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .primer-elemento {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .seccion-navegacion {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  main {
+    background-color: aliceblue;
+    border: 1px solid;
+    width: 80%;
+    order: 2;
+  }
+
+  .buscador-and-new-teacher {
+    width: 100%;
+    height: 52px;
+    border: 1px solid red;
+    background-color: rgba(203, 238, 187, 0.616);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .buscador {
+    width: 63%;
+    height: 50px;
+    border: 1px solid;
+    background-color: rgba(30, 122, 122, 0.397);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-buscador {
+    display: flex;
+    align-items: center;
+    border: 1px solid;
+    width: 75%;
+  }
+
+  .input-buscador > input {
+    width: 100%;
+  }
+
+  .filtro-actividade-teacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+    background-color: aliceblue;
+  }
+
+  .new-teacher {
+    width: 15%;
+    height: 50px;
+    border: 1px solid;
+    background-color: rgba(30, 122, 122, 0.397);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .new-teacher > img {
+    flex: 0.3;
+    width: 24px;
+    height: 24px;
+  }
+
+  .new-teacher > span {
+    flex: 0.7;
+  }
+
+  .teachers {
+    width: 90%;
+    height: 108px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .dato-teacher {
+    width: 55%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .imaxen-teacher {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+  }
+
+  .nome-e-students-teacher {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+  }
+
+  .actividade-teacher {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .observacions-teacher {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .advertencia-teacher {
+    display: flex;
+    align-items: center;
+  }
+
+  span[name="texto-advertencia-teacher"] {
+    margin: 0;
+    color: #ff3c38;
+  }
+
+  span[name="parte-logos"],
+  span[name="seccion-navegacion"],
+  span[name="logout"] {
+    margin-left: 5%;
+  }
+
+  .elemento-logo-academia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid;
+    border-radius: 15px;
+  }
+
+  .imaxen-figma {
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .textos-elemento-logo-academia {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+
+  .logout {
+    display: flex;
+    align-items: center;
+  }
+}

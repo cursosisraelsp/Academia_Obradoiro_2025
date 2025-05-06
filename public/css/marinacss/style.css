@@ -1,0 +1,58 @@
+:root {
+  --box-shadow-test: 0px 5px 6px 5px #977777;
+  --margin-test: 5px;
+  --border-radius-test: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  border: 5px solid orange;
+  display: flex;
+}
+
+aside {
+  height: 100vh;
+  border: 1px solid red;
+  background-color: #d3c481;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+  gap: 10px;
+}
+.krona-one-regular {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bolder {
+  font-family: "Roboto", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.roboto-soft {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.cor-soft {
+  color: #726b76;
+}
+
+span[name="titulo-musical"] {
+  text-transform: uppercase;
+}
+.box-shadow-xenerico {
+  box-shadow: var(--box-shadow-test);
+  margin: var(--margin-test);
+  border-radius: var(--border-radius-test);
+}
