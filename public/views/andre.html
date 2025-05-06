@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/andre/andre.css"/>
+    <title>Sweetnote</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Krona+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <aside class="menu-lateral">
+    <div class="logo">
+      <img src="./media/ICONOS/NOTAMUSICAL.png" alt="Logo" />
+      <span><strong>SWEETNOTE</strong></span>
+    </div>
+    <div class="Academy-name">
+      <img src="./media/ICONOS/LOGO.png" alt="logo 2" />
+      <span><strong>Academy name</strong> Admin</span>
+    </div>
+      <nav class="navegacion">
+      <a href="#" class="activo">
+        <img src="./media/ICONOS/CIRCULOS.png" alt="Icono Inicio" /> Dashboard
+        <img src="./media/ICONOS/2.png" alt="notificacion" /></a>
+      <a href="#"> <img src="./media/ICONOS/PIZARRA.png" alt="Icono Profesores" /> Teachers </a>
+      <a href="#"> <img src="./media/ICONOS/SOMBRERO.png" alt="Icono Estudiantes" /> Students </a>
+      <a href="#">
+        <img src="./media/ICONOS/ENGRANAJE.png" alt="Icono Configuración" />
+        Settings
+      </a>
+    </nav>
+    <nav class="navegacion">
+    <div class="cerrar-sesion">
+      <a href="#" class="activo3">
+      <img src="./media/ICONOS/EXIT.png" alt="Icono Cerrar Sesión" />
+      <span>Log Out</span>
+    </a>
+  </nav>
+    </div>
+  </aside>
+
+  <main>
+    <header class="encabezado">
+      <h1>Dashboard</h1>
+    </header>
+
+    <section class="barra-herramientas">
+      <div class="botones">
+        <button class="seleccionado">Recent Activity</button>
+        <button>Flags <img src="./media/ICONOS/2.png" alt="notificacion" /></button>
+      </div>
+
+      <div class="desplegable">
+        <button class="btn-desplegable">
+          All time
+          <img src="./media/ICONOS/Flecha abajo.png" alt="Flecha arriba" />
+        </button>
+        <ul class="contenido-desplegable">
+          <li><a href="#">Today</a></li>
+          <li><a href="#">This week</a></li>
+          <li><a href="#">This month</a></li>
+          <li><a href="#">All time</a></li>
+        </ul>
+      </div>
+
+      <div class="buscador">
+        <input type="text" placeholder="Search" />
+        <button>
+          <img src="./media/ICONOS/lupa.png" alt="Buscar" />
+        </button>
+      </div>
+    </section>
+
+    <section class="actividades">
+      <div class="tarjeta">
+        <img src="./media/PERFILES/PROFESOR.png" alt="Usuario" />
+        <img src="./media/ICONOS/CAMARA.png" alt="Icono Cámara" />
+        <img src="./media/PERFILES/ESTUDIANTEFELIZ.png" alt="Usuario" />
+        <div class="texto-tarjeta">
+        <p>
+          <strong>Talan Kenter</strong> sent a video to
+          <strong>Jaxon Dorwart</strong>
+        </p>
+        <span class="info-texto">Beginner Level</span>
+        <span class="hora">Today, 14:30PM</span>
+        </div>
+       <div class="accion-tarjeta">
+        <div class="video">
+        <video width="156" height="104" controls>
+          <source src="./media/VIDEOAUDIO/guitarra.mp4" type="video/mp4" />
+          <source src="./media/VIDEOAUDIO/guitarra.mp4" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+        </div>
+       </div>
+      </div>
+      <div class="tarjeta">
+        <img src="./media/PERFILES/PROFESORA.png" alt="Usuario" />
+        <img src="./media/ICONOS/aviondepapel.png" alt="Icono acción" />
+        <img src="./media/PERFILES/ESTUDIANTE.png" alt="Usuario" />
+        <div class="texto-tarjeta">
+        <p>
+          <strong>Adison Geidt</strong> had a chat with
+          <strong>Maren Levin</strong>
+        </p>
+        <span class="info-texto">8 messages</span>
+        <span class="hora">Today, 12:30PM</span>
+      </div>
+        <div class="accion-tarjeta">
+        <img src="./media/ICONOS/MENSAJE.png" alt="icono-mensaje" />
+        </div>
+      </div>
+      <div class="tarjeta">
+        <img src="./media/PERFILES/PROFESORA.png" alt="Usuario" />
+        <img src="./media/ICONOS/MICRO.png" alt="Icono acción" />
+        <img src="./media/PERFILES/ESTUDIANTE.png" alt="Usuario" />
+        <div class="texto-tarjeta">
+        <p>
+          <strong>Adison Geidt</strong> sent a voice message to
+          <strong>Maren Levin</strong>
+        </p>
+        <span class="info-texto">(00:54)</span>
+        <span class="hora">Today, 11:05AM</span>
+        </div>
+        <div class="accion-tarjeta">
+        <audio controls>
+          <source src="./media/VIDEOAUDIO/voz.mp3" type="audio/ogg" />
+          <source src="./media/VIDEOAUDIO/voz.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+       </div>
+      </div>
+      <div class="tarjeta">
+        <img src="./media/PERFILES/PROFESOR2.png" alt="Usuario" />
+        <img src="./media/ICONOS/aviondepapel.png" alt="Icono acción" />
+        <img src="./media/PERFILES/NF.png" alt="Usuario" />
+        <div class="texto-tarjeta">
+        <p>
+          <strong>Carter Geidt</strong> had a chat with
+          <strong>Nolan Franci</strong>
+        </p>
+        <span class="info-texto">5 messages</span>
+        <span class="hora">Today, 07:56AM</span>
+        </div>
+        <div class="accion-tarjeta">
+        <img src="./media/ICONOS/MENSAJE.png" alt="icono-mensaje" />
+        </div>
+      </div>
+    </section>
+
+    <section class="numeracion">
+      <button>
+        <img src="./media/ICONOS/numeracion izq.png" alt="Anterior" />
+      </button>
+      <span class="activo2">1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>...</span>
+      <span>32</span>
+      <button>
+        <img src="./media/ICONOS/numeracion der.png" alt="Siguiente" />
+      </button>
+    </section>
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    background: #f7f7f7;
+  }
+  
+  .menu-lateral {
+    width: 280px;
+    height: 900;
+    background: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  
+  .logo {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 50px;
+    
+  }
+  .Academy-name {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+   } 
+
+
+  .navegacion a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-top: 10px
+  }
+  
+  .navegacion img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  main {
+ 
+    padding: 20px;
+  }
+  
+  .encabezado {
+    height: 160px;
+    width: 1160px;
+    left: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  .barra-herramientas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px 0;
+    width: 1083px;
+  }
+  
+  .botones button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 42px;
+    width: 117px;
+    padding: 10px 15px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .botones .seleccionado {
+    width: 196px;
+    height: 44px;
+    background: #A45CF3;
+    color: white;
+    border-radius: 15px;
+  }
+  
+  .botones {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .buscador {
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .buscador input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .buscador button img {
+    width: 37px;
+  }
+  
+  .desplegable {
+    position: relative;
+  }
+  
+  .btn-desplegable {
+    padding: 7px;
+    background: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+  }
+  
+  .contenido-desplegable {
+    display: none;
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    width: 120px;
+    height: 150px;
+    border-radius: 15px;
+    width: 100px;
+  }
+ 
+  .contenido-desplegable li{
+    list-style: none;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    color: black;
+    list-style: none;
+  }
+  
+  .desplegable:hover .contenido-desplegable {
+    display: block;
+  }
+  .buscador {
+    display: flex;
+    
+  }
+  .actividades {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  
+  .tarjeta {
+    margin-left: 40PX;
+    height: 120px;
+    width: 1008px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .accion-tarjeta {
+    width: 156px;
+    height: 104px;
+    background-color: #F3F1FB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .accion-tarjeta img {
+    width: 30px;
+  }
+
+  .numeracion {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .numeracion button {
+    cursor: pointer;
+  }
+
+  .numeracion .activo {
+  font-weight: bold;
+  }
+
+  .numeracion button img {
+    width: 20px;
+  }
+
+ .seleccionado {
+    width: 117px;
+    height: 42px;
+ 
+ }
+ .academy-name {
+    width: 256px;
+    height: 72px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    border: black
+ }
+
+ .botones {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-left: 40px;
+ }
+
+ .cerrar-sesion {
+    margin-top: 380px
+ }
+
+ .contenido-desplegable {
+    color: black;
+ }
+
+ .activo {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #FCFAFE;
+  height: 47px;
+ }
+
+ .activo2 {
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  background-color: #FCFAFE;
+ }
+
+ .texto-tarjeta {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+ }
+
+ .info-texto {
+  color: #A45CF3;
+ }
