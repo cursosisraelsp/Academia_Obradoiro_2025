@@ -1,0 +1,363 @@
+@media (width >= 1024px) {
+  .centrar-elementos-en-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body {
+    background-color: rgb(163, 216, 128);
+  }
+  header {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    width: 96%; /*introducido pola modificación no main do estilo de centrado 'centrar-elementos-en-column'*/
+    .titulo-header {
+      font-size: 40px;
+      margin-left: 37px;
+    }
+  }
+  aside {
+    order: 1;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    .parte-etiquetas-logos {
+      display: block;
+      flex: 0.3;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      .primer-elemento {
+        margin-left: 9px;
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  }
+  .seccion-navegacion {
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+}
+main {
+  background-color: #fcfafe;
+  border: 1px solid;
+  width: 80%;
+  order: 2;
+
+  .buscador-and-new-teacher {
+    width: 89%;
+    height: 52px;
+    background-color: #fcfafe;
+
+    display: flex;
+    justify-content: space-between;
+    .buscador {
+      width: 63%;
+      height: 50px;
+      background-color: #fcfafe;
+      display: flex;
+      justify-content: space-between;
+      gap: 11px;
+
+      .input-buscador {
+        display: flex;
+        align-items: center;
+        width: 65%;
+        margin-left: -18px;
+        & > input {
+          width: 100%;
+        }
+      }
+
+      .filtro-actividade-teacher {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 30%;
+        background-color: white;
+      }
+    }
+    .new-teacher {
+      width: 15%;
+      height: 35px;
+      border: 1px solid;
+      background-color: ##a855f7;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      & > img {
+        flex: 0.3;
+        width: 24px;
+        height: 24px;
+      }
+      & > span {
+        flex: 0.7;
+      }
+    }
+  }
+
+  .teachers {
+    width: 828px;
+    height: 213px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -139px;
+  }
+
+  .teachers-2 {
+    width: 828px;
+    height: 319px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -139px;
+  }
+  .teachers-3 {
+    width: 828px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    margin-left: -139px;
+  }
+
+  .dato-teacher {
+    width: 93%; /*Obtido de maneira aproximada mediante os datos do ancho dado en figma*/
+    height: 149px;
+
+    display: flex;
+    justify-content: space-around;
+  }
+  .dato-teacher-2 {
+    width: 642px; /*Obtido de maneira aproximada mediante os datos do ancho dado en figma*/
+    height: 235px;
+    margin-left: -103px;
+  }
+
+  .imaxen-teacher {
+    flex: 0.3;
+    display: flex;
+    align-items: center;
+    margin-right: -12px;
+  }
+  .nome-e-students-teacher {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+  }
+  .nome-e-students-teacher-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+  }
+
+  .actividade-teacher {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+}
+.observacions-teacher {
+  width: 40%; /* de maneira aproximada e para deixar espacio entre o elemento dato-teacher*/
+  height: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  .advertencia-teacher {
+    display: flex;
+    align-items: center;
+  }
+  span[name="texto-advertencia-teacher"] {
+    margin: 5px;
+    color: #ff3c38;
+  }
+  span[name="texto-advertencia-teacher2"] {
+    margin: 5px;
+    color: #a45cf3;
+  }
+}
+
+span[name="parte-logos"],
+span[name="seccion-navegacion"],
+span[name="logout"] {
+  margin-left: 5%;
+}
+.elemento-logo-academia {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  width: 92%;
+  margin-left: 10px;
+  box-shadow: -2px 3px 8px 0px #d3d3d3;
+
+  .imaxen-figma {
+    box-shadow: -1px 1px 7px 0px #d3d3d3;
+    border-radius: 50%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .textos-elemento-logo-academia {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* neste caso é equivalente a escribir a propiedade width*/
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+  }
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 10px;
+  padding: 10px;
+}
+.section-pai {
+  width: 100%;
+  margin-left: 90px;
+}
+
+.password {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 38px;
+}
+
+.password i {
+  margin-right: -20px;
+}
+
+.navegador {
+  display: flex;
+  gap: 568px;
+  align-items: center;
+}
+
+.all-time {
+  display: flex;
+  align-items: center;
+  width: 30%;
+  justify-content: space-around;
+  background-color: var(--color-ppal-2);
+  position: relative;
+  .menu {
+    width: 90%;
+    background-color: var(--color-ppal-2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    opacity: 0;
+    position: absolute;
+  }
+  .menu > a {
+    text-decoration: none;
+    font-family: var(--font-secondary);
+    color: var(--font-color);
+    &:hover {
+      zoom: 20%;
+    }
+  }
+  &:hover > .menu {
+    top: 40px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+}
+
+.desplegable {
+  width: 20px;
+  height: 15px;
+
+  cursor: pointer;
+}
+
+.flecha-contraseña {
+  width: 100%;
+  height: 100%;
+}
+
+.caja-password {
+  position: absolute;
+  margin-top: 232px;
+  width: 828px;
+  height: 154px;
+  box-shadow: 2px 3px 8px 0px #d3d3d3;
+  border-radius: var(--border-radius-test);
+  display: none;
+}
+.desplegable {
+  &:hover + .caja-password {
+    display: block;
+  }
+  &:focus + .caja-password {
+    display: block;
+  }
+}
+.org-1 {
+  width: 65%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 37px;
+  margin-top: 29px;
+}
+.inputs {
+  width: 93%;
+  display: flex;
+  margin-left: 37px;
+  margin-top: 6px;
+  gap: 91px;
+}
+
+.current-password {
+  width: 335px;
+  height: 35px;
+  border-radius: 10px;
+  opacity: 44%;
+  border-width: thin;
+}
+
+.botones-password {
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 36px;
+  margin-top: 16px;
+}
+
+.boton-save {
+  background-color: #a45cf3;
+  border-radius: 19px;
+  color: white;
+  font-weight: normal;
+  flex: 0.4;
+}
+
+.boton-cancel {
+  color: #ff4242;
+  font-weight: normal;
+  flex: 0.4;
+  box-shadow: 2px 3px 8px 0px #d3d3d3;
+  display: flex;
+  border-radius: var(--border-radius-test);
+  gap: 5px;
+}

@@ -1,0 +1,161 @@
+:root {
+  --box-shadow-test: 0px 5px 6px 5px #977777;
+  --margin-test: 5px;
+  --border-radius-test: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  border: 5px solid orange;
+  display: flex;
+}
+
+aside {
+  height: 100vh;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: white;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  color: grey;
+  font-weight: bold;
+  text-decoration: none;
+  gap: 10px;
+  padding: 10px;
+}
+.krona-one-regular {
+  font-family: "Krona One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.roboto-bolder {
+  font-family: "Roboto", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 22px;
+}
+.roboto-soft {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #726b76;
+  font-variation-settings: "wdth" 100;
+  margin-top: 6px;
+}
+.roboto-soft-2 {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #726b76;
+  font-variation-settings: "wdth" 100;
+  margin-top: 23px;
+  text-align: justify;
+}
+
+.cor-soft1 {
+  color: #a45cf3;
+}
+
+.negrita {
+  font-weight: bold;
+  color: #726b76;
+}
+.negrita-2 {
+  font-weight: bold;
+  color: black;
+}
+
+span[name="titulo-musical"] {
+  text-transform: uppercase;
+}
+.box-shadow-xenerico {
+  box-shadow: 2px 3px 8px 0px #d3d3d3;
+  margin: var(--margin-test);
+  border-radius: var(--border-radius-test);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #faf7ff;
+  margin: 0;
+  padding: 0;
+}
+
+.buscador-and-new-teacher {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 97%;
+  padding: 10px 20px;
+  background-color: #faf7ff;
+}
+
+.input-buscador {
+  display: flex;
+  align-items: center;
+  background: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+  box-shadow: 2px 3px 8px 0px #d3d3d3;
+}
+
+.input-buscador input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border-radius: 25px;
+}
+
+.input-buscador img {
+  background-color: #a855f7;
+  padding: 8px;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.filtro-actividade-teacher {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  box-shadow: 2px 3px 8px 0px #d3d3d3;
+  cursor: pointer;
+}
+
+.filtro-actividade-teacher span {
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.filtro-actividade-teacher img {
+  width: 16px;
+  height: 16px;
+}
+
+.new-teacher {
+  display: flex;
+  align-items: center;
+  background-color: #a855f7;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.new-teacher img {
+  margin-right: 5px;
+}

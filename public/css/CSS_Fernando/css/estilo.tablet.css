@@ -1,0 +1,9 @@
+@media (width >= 768px) and (width <= 1023px) {
+  body {
+    background-color: rgb(51, 255, 0);
+  }
+
+  aside {
+    width: 20%;
+  }
+}
