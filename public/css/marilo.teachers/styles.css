@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color-body);
+  display: flex;
+}
+
+button {
+  opacity: 0;
+}
+
+/* -- MAIN --  */
+main {
+  width: 80%;
+  background: linear-gradient(to top left, white, var(--bg-color-gradient));
+}
+
+h1 {
+  font-family: var(--font-ppal);
+  font-size: var(--font-size-header);
+  font-weight: var(--font-weight-ppal);
+  padding-top: 35px;
+  padding-left: 50px;
+  height: 95px;
+  color: var(--font-color-ppal);
+}
+
+.contenido {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 30px;
+  width: 90%;
+}
+
+.linea1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: var(--alignitems-center);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+}
+.box-shadow-xenerico {
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius);}
+
+.div1 {
+  display: flex;
+  align-items: var(--alignitems-center);
+  gap: 15px;
+  width: 75%;
+
+}
+
+.frost {
+  display: flex;
+  flex: 0.7;
+  justify-content: space-between;
+  align-items: var(--alignitems-center);
+  background-color: var(--bg-color-body);
+  border-radius: 20px;
+  padding: 5px;
+  padding-left: 10px;
+  img {
+    width: 20px;
+    height: 20px;
+    background-color: var(--color-ppal);
+    padding: 10px;
+    border-radius: 18px;
+  }
+}
+
+.sort {
+  display: flex;
+  align-items: var(--alignitems-center);
+  gap: 5px;
+  background-color: var(--bg-color-body);
+  border-radius: 20px;
+  padding: 15px;
+  img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.div2 {
+  background-color: var(--color-ppal);
+  border-radius: 20px;
+  padding: 5px;
+  gap: 5px;
+  width: 20%;
+  color: var(--bg-color-body);
+  font-weight: var(--font-weight-ppal);
+  img {
+    width: 20px;
+    height: 20px;
+  }
+  display: flex;
+  justify-content: center;
+  align-items: var(--alignitems-center);
+  transition: transform 0.3s ease;
+  &:hover,
+  :focus {
+    transform: translateY(-10px);
+  }
+  a {
+    color: var(--bg-color-body);
+    padding: 5px;
+    border-radius: 20px;
+    background-color: var(--color-ppal);
+    transform: all 0.3s ease;
+    &:hover,
+    :focus {
+      color: var(--font-color-ppal);
+    }
+  }
+}
+
+.linea2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: var(--alignitems-center);
+  font-family: var(--font-secondary);
+  font-size: 16px;
+  a {
+    color: var(--color-ppal);
+    transform: all 0.3s ease;
+    &:hover,
+    :focus {
+      color: var(--font-color-ppal);
+    }
+  }
+}
+
+.teachers {
+  font-weight: var(--font-weight-ppal);
+  font-size: 26px;
+  color: var(--font-color-ppal);
+}
+
+.linea3 {
+  background-color: var(--bg-color-body);
+  font-family: var(--font-secondary);
+  font-size: 14px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: var(--alignitems-center);
+  border-radius: 20px;
+  border: 1px solid var(--color-bordes);
+  /*box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1), -5px -5px 20px rgba(0, 0, 0, 0.1);*/
+  transition: transform 0.3s ease;
+  &:hover {
+    transform: translateY(-10px);
+  }
+}
+
+.caja1 {
+  display: flex;
+  flex: 0.6;
+  justify-content: left;
+  padding-left: 10px;
+  align-items: var(--alignitems-center);
+  border-right: 1px solid var(--color-bordes);
+}
+
+.info {
+  display: flex;
+  justify-content: left;
+  flex: 0.6;
+  align-items: var(--alignitems-center);
+  gap: 5px;
+}
+
+.foto {
+  border: 2px solid var(--color-ppal);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: var(--alignitems-center);
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 10px;
+  gap: 5px;
+  color: var(--font-color-ppal);
+  font-weight: var(--font-weight-secondary);
+}
+
+.students {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-ppal);
+}
+
+.activity {
+  flex: 0.4;
+}
+
+.fecha {
+  font-weight: var(--font-weight-tertiary);
+  color: var(--font-color-secondary);
+}
+
+.caja2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  flex: 0.4;
+  padding: 10px;
+  gap: 5px;
+  color: var(--font-color-secondary);
+}
+
+.alerta {
+  color: var(--color-alert);
+  font-weight: var(--font-weight-secondary);
+  img {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+.play {
+  color: var(--color-ppal);
+  font-weight: var(--font-weight-secondary);
+  img {
+    width: 13px;
+    height: 13px;
+  }
+}
