@@ -1,0 +1,280 @@
+.cuadro_general {
+  display: flex;
+  width: 1440px;
+  height: 900px;
+  /*background-color: aqua;*/
+}
+.distribucion1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cuadro_derecha {
+  width: 1160px;
+  height: 900px;
+  /* border: 3px solid forestgreen;*/
+  background: linear-gradient(#a45cf326, #f2f4fa00);
+}
+
+.cuadro_izquierda {
+  width: 280px;
+  height: 900px;
+  /*border: 3px solid red;*/
+  background-color: white;
+}
+
+.cuadro_superior {
+  width: 1008px;
+  height: 160px;
+
+  /* background-color: beige;*/
+  text-align: left;
+  align-content: center;
+  /* background: linear-gradient(#a45cf326, #f2f4fa00);*/
+}
+
+.cuadro_menu {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 25.5%;
+  align-items: center;
+  width: 1008px;
+  height: 52px;
+  /*margin-top: 162px;*/
+
+  /*background-color: chocolate;*/
+  text-align: center;
+  align-content: center;
+}
+
+.cuadro_cuerpo {
+  width: 1008px;
+  height: 650px;
+  /* background-color: indianred;*/
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 25px;
+  background: linear-gradient(#a45cf326, #f2f4fa00);
+  border-radius: 15px;
+}
+
+.cuadro_titulo {
+  width: 250px;
+  height: 160px;
+  /* background-color: palevioletred;*/
+  text-align: center;
+  align-content: center;
+}
+
+.cuadro_academyname {
+  width: 250px;
+  height: 75px;
+  background-color: white;
+  text-align: start;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(189, 183, 183);
+}
+
+.cuadro_menucolumna {
+  width: 250px;
+  height: 300px;
+  /* background-color: orange;*/
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.cuadro_logout {
+  width: 250px;
+  height: 75px;
+  /* background-color: rosybrown;*/
+  text-align: start;
+  align-content: center;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.cuadro_menu_izquierda {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 550px;
+  height: 40px;
+  /*background-color: antiquewhite;*/
+  text-align: center;
+  align-content: center;
+}
+
+.cuadro_menu_derecha {
+  width: 200px;
+  height: 40px;
+  background-color: purple;
+  text-align: center;
+  align-content: center;
+  border-radius: 15px;
+  color: white;
+}
+
+.cuadro_menu_izquierda_1 {
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  text-align: start;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(189, 183, 183);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 60%;
+}
+
+.cuadro_menu_izquierda_2 {
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  text-align: start;
+  align-content: center;
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px rgb(189, 183, 183);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+}
+
+.cuadro_cuerpo_interior {
+  width: 300px;
+  height: 500px;
+  /* background-color: rgb(108, 108, 167);*/
+  text-align: center;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 25px;
+}
+
+.cuadro_cuerpo_interior_lupa {
+  width: 250px;
+  height: 175px;
+  /* background-color: indianred;*/
+  text-align: center;
+  align-content: center;
+}
+
+.cuadro_cuerpo_interior_noteachersfound {
+  width: 250px;
+  height: 25px;
+  /*background-color: indianred;*/
+  text-align: center;
+  align-content: center;
+}
+
+.cuadro_cuerpo_interior_texto {
+  width: 250px;
+  height: 35px;
+  /*background-color: indianred;*/
+  text-align: center;
+  align-content: center;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.cuadro_cuerpo_interior_clearserch {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgb(189, 183, 183);
+  color: purple;
+}
+
+.cuadro_menucolumna_dashboard {
+  width: 200px;
+  height: 60px;
+  /* background-color: wheat;*/
+  text-align: start;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.cuadro_menucolumna_teachers {
+  width: 250px;
+  height: 60px;
+  background-color: #a45cf326;
+  text-align: start;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+.cuadro_menucolumna_students {
+  width: 200px;
+  height: 60px;
+  /*background-color: wheat;*/
+  text-align: start;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+.cuadro_menucolumna_settings {
+  width: 200px;
+  height: 60px;
+  /*background-color: wheat;*/
+  text-align: start;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+
+span {
+  color: grey;
+}
+
+img {
+  margin-left: 10px;
+}
