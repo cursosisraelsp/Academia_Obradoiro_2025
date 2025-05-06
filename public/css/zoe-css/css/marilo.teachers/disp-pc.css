@@ -1,0 +1,142 @@
+@media (width >= 1024px) {
+  .desplegable2 {
+    width: 20%;
+  }
+
+  .sweetnote {
+    width: 95%;
+  }
+
+  button {
+    display: none;
+  }
+
+  aside {
+    height: 100vh;
+    width: 100%;
+    border-right: 2px solid var(--color-bordes);
+    background-color: var(--bg-color-body);
+  }
+
+  .cabecera {
+    border-bottom: 1px solid var(--color-bordes);
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: var(--alignitems-center);
+  }
+
+  .logo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: var(--alignitems-center);
+    gap: 10px;
+    span[name="titulo"]{
+      font-family: var(--font-ppal);
+      color: var(--font-color-ppal);
+    }
+  }
+
+  .academy {
+    margin-top: 60px;
+    padding: 5px;
+   /* border-radius: 20px;*/
+    border: 1px solid var(--color-bordes);
+    /*box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1),
+      -5px -5px 20px rgba(0, 0, 0, 0.1);*/
+    width: 80%;
+    font-family: var(--font-tertiary);
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: var(--alignitems-center);
+  }
+
+  .figma {
+    border: 1px solid var(--color-bordes);
+    border-radius: 50%;
+    padding: 5px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: var(--alignitems-center);
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 40px;
+    font-family: var(--font-tertiary);
+    font-size: 14px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    a[name="dashboard"]{
+      display: flex;
+      justify-content: space-between;
+    }
+    a[name="teachers"]{
+      background-color: var(--bg-color-gradient);
+      border-radius: var(--border-radius);
+    }
+    .dashboard{
+      display: flex;
+      align-items: (--alignitems-center);
+      width: 100px;
+      gap: 10px;
+    }
+    span[name="num-dashboard"]{
+        background-color: red;
+            color: white;
+            border-radius: 50%;
+            width: 19px;
+            height: 19px;
+            display: flex;
+            justify-content: center;
+            font-size: 11px;
+            align-items: var(--alignitems-center);
+            }
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--font-color-secondary);
+    display: flex;
+    align-items: var(--alignitems-center);
+    gap: 10px;
+    padding: 10px;
+    transform: all 0.3s ease;
+    img {
+      width: 20px;
+      height: 20px;
+    }
+    &:hover,
+    :focus {
+      background-color: var(--bg-color-gradient);
+      border-radius: var(--border-radius);
+      color: var(--font-color-ppal);
+      font-weight: var(--font-weight-ppal);
+    }
+  }
+
+  .logout {
+    margin-top: 380px;
+    a {
+      color: var(--font-color-ppal);
+    }
+  }
+
+  .div2 {
+    a {
+      background-color: var(--color-ppal);
+    }
+  }
+}

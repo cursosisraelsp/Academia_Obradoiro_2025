@@ -1,0 +1,30 @@
+:root {
+    --color-violeta: rgba(164, 92, 243, 1);
+    --color-violeta-fondo: rgb(248, 242, 250);
+    --color-negro: black;
+    --color-gris: #726b76;
+    --color-gris-claro: rgba(243, 241, 251, 1);
+    --color-blanco: white;
+    --color-rojo: red;
+    --color-naranja: #FF8C42;
+    --color-azul:#06AED5;
+
+    --box-shadow: rgba(38, 31, 43, 0.08) 0px 2px 8px 0px;
+    --box-border-radius: 21px;
+
+    --circle-radius:50%;
+
+    --section-width: 90%;
+    --aside-width: 85%;
+
+    --apartados-height: 52px;
+
+    --icono-size: 21px;
+    --fotos-size: 60px;
+
+    --line-height: 24px;
+
+    --pading-derecha: 0px 5px 0px 0px;
+
+  
+  }

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/zoe-css/zoe.style.css" />
+    <link rel="stylesheet" href="./css/zoe-css/variables.css" />
+
+</head>
+<body>
+  <div class="desplegable2">
+   <button><img src="../recursos.teachers/menu.png" alt="menu" /></button>
+   <aside>
+    <section class="cabecera">
+      <div class="logo">
+          <img src="./media/Nota-musical.svg" alt="nota musical" />
+          <span name="titulo">SWEETNOTE</span>
+      </div>
+      <div class="academy box-shadow-xenerico">
+        <div class="figma">
+          <img src="../recursos.teachers/Figma (icon — Colour).png" alt="Figma Icon" />
+        </div>
+        <div>
+          <p style="font-weight: 700">Academy name</p>
+          <p style="font-weight: 300">Admin</p>
+        </div>
+      </div>
+    </section>
+    <section class="options">
+      <nav class="menu">
+        <a href="/dashboard" name="dashboard">
+          <div class="dashboard"><img
+            src="/../recursos.teachers/CirclesFour.png"
+            alt="Dashboard"
+          />Dashboard</div>
+          <div>
+          <span name="num-dashboard">2</span>
+          </div>
+          </a
+        >
+        <a href="/teachers" 
+          ><img
+            src="/../recursos.teachers/ChalkboardTeacher.png"
+            alt="Teachers"
+          />Teachers</a
+        >
+        <a href="/students" 
+          ><img src="/../recursos.teachers/Vector.png" alt="Students" />Students</a
+        >
+        <a href="#"
+          ><img src="/../recursos.teachers/Vector_1.png" alt="Settings" />Settings</a
+        >
+      </nav>
+      <div class="logout">
+        <a href="#"
+          ><img src="/../recursos.teachers/default 40.png" alt="Log out" />Log Out</a
+        >
+      </div>
+    </section>
+   </aside>
+  </div>
+<main>
+  <header>Dashboard</header>
+  <div class="content">
+    <section class="seccion-buscador">
+      <div class="buscador-elemento1">
+        <div class="container box-shadow-xenerico">
+          <div class="rec-act">
+            <span>Recent activity</span> 
+          </div>
+          <div class="flags">
+            <div class="texto-flags">
+            <span>Flags</span>
+          </div>
+            <span class="num-flags">2</span>
+         </div>
+        </div>
+        <div class="all-time box-shadow-xenerico">
+          <span>All time</span>
+          <img src="./media/Arrow-down.svg" alt="Frecha_abaixo" />
+          <nav class="menu box-shadow-xenerico">
+          <a href="#">Today</a>
+          <a href="#">This week</a>
+          <a href="#">This month</a>
+          <a href="#">All time</a>
+          </nav>
+        </div>
+      </div>
+      <div class="buscador-elemento2 box-shadow-xenerico">
+        <input type="text" placeholder="Search" class="input-style" />
+        <div class="icon-lupa">
+        <img src="./media/Lupa.svg" alt="imaxen lupa" />
+        </div>
+      </div>
+    </section>
+    <div class="scroll-container">
+    <section id="seccion-newflags">
+    <h2>2 new flags</h2>
+    <article class="flag box-shadow-xenerico">
+<div class="flag-content">
+  <div class="images">
+  <img src="./media/Flags/Flag-img1.svg" alt="Teacher1" name="teacher">
+  <img src="./media/Flags/Flag-warningicon.svg" alt="Warning icon">
+  <img src="./media/Flags/Flag-img2.svg" alt="Student1" name="student">
+</div>
+<div>
+  <p name="video-message">
+    <strong>Adison Geidt</strong> got rejected when trying upload a video to <strong>Maren Levin</strong>
+  </p>
+  <p name="video-title">
+    Lotus Dancing in The Wind
+  </p>
+  <p name="video-date">
+    Today, 12:30PM
+  </p>
+</div>
+</div>
+<video controls height="104">
+  <source src="media/Flower.webm" type="video/webm"/> 
+  <!-- <source src="media/Flower.mp4" type="video/mp4"/>  -->
+  Download the
+  <a href="./media/Flower.mp4">WEBM</a>
+  or
+  <a href="./media/Flower.mp4">MP4</a>
+  video.
+</video>
+    </article>
+    <article class="flag box-shadow-xenerico">
+      <div class="flag-content">
+        <div class="images">
+        <img src="./media/Flags/Flag-img3.svg" alt="Teacher2" name="teacher">
+        <img src="./media/Flags/Flag-warningicon.svg" alt="Warning icon">
+        <img src="./media/Flags/Flag-img4.svg" alt="Student2" name="student">
+      </div>
+      <div>
+        <p name="video-message">
+          <strong>Ben Brown</strong> got rejected when trying upload a video to <strong>Nathan Frost</strong>
+        </p>
+        <p name="video-title">
+          Drone View Of Big Waves Rushing To The Shore
+        </p>
+        <p name="video-date">
+          Today, 11:30AM
+        </p>
+      </div>
+      </div>
+      <video controls height="104" muted>
+        <source src="media/sea.mp4" type="video/webm"/> 
+        <!-- <source src="media/sea.mp4" type="video/mp4"/>  -->
+        Download the
+        <a href="./media/sea.mp4">WEBM</a>
+        or
+        <a href="./media/sea.mp4">MP4</a>
+        video.
+      </video>
+          </article>
+  </section>
+  <section id="seccion-oldflags">
+    <h2>Older</h2>
+    <article class="flag box-shadow-xenerico">
+      <div class="flag-content">
+        <div class="images">
+        <img src="./media/Flags/Flag-img4.svg" alt="Student2" name="student">
+        <img src="./media/Flags/Flag-warningicon.svg" alt="Warning icon">
+        <img src="./media/Flags/Flag-img3.svg" alt="Teacher2" name="teacher">
+      </div>
+      <div>
+        <p name="video-message">
+          <strong>Nathan Frost</strong> got rejected when trying upload a video to <strong>Ben Brown</strong>
+        </p>
+        <p name="video-title">
+          Milky Way Glowing At Night
+        </p>
+        <p name="video-date">
+          June 6, 2022 - 11:45AM
+        </p>
+      </div>
+      </div>
+      <video controls height="104">
+        <source src="media/stars.mp4" type="video/webm"/> 
+        <!-- <source src="media/stars.mp4" type="video/mp4"/>  -->
+        Download the
+        <a href="./media/stars.mp4">WEBM</a>
+        or
+        <a href="./media/stars.mp4">MP4</a>
+        video.
+      </video>
+          </article>
+          <article class="flag box-shadow-xenerico" id="chat">
+            <div class="flag-content">
+              <div class="images">
+              <img src="./media/Flags/Flag-img3.svg" alt="Teacher2" name="teacher">
+              <img src="./media/Flags/chat-icon.svg" alt="Chat icon">
+              <img src="./media/Flags/Flag-student.svg" alt="Student3" name="student">
+            </div>
+            <div>
+              <p name="video-message">
+                <strong>Nathan Frost</strong> had a chat with <strong>Jaxson Dorwart</strong>
+              </p>
+              <p name="video-title">
+                5 messages
+              </p>
+              <p name="video-date">
+                May 5, 2022 - 11:30AM
+              </p>
+            </div>
+            </div>
+            <div class="icon-background">
+            <img src="./media/Flags/messages.svg" alt="chat" id="chat"/>
+          </div>
+                </article>
+  </section>
+  <section id="seccion-oldflags2">
+    <article class="flag box-shadow-xenerico">
+      <div class="flag-content">
+        <div class="images">
+        <img src="./media/Flags/Flag-img1.svg" alt="Teacher1" name="teacher">
+        <img src="./media/Flags/Microphone.svg" alt="Audio icon">
+        <img src="./media/Flags/Flag-img2.svg" alt="Student1" name="student">
+      </div>
+      <div>
+        <p name="video-message">
+          <strong>Adison Geidt</strong> sent a voice message to <strong>Maren Levin</strong>
+        </p>
+        <p name="video-title">
+          (00:28)
+        </p>
+        <p name="video-date">
+          Feb, 2022 - 10:45AM
+        </p>
+      </div>
+      </div>
+      <div class="icon-background">
+      <figure>
+        <audio controls src="./media/happy-birthday.mp3"></audio>
+        <a href="./media/happy-birthday.mp3">Download</a>
+      </figure>
+    </div>
+          </article>
+          <article class="flag box-shadow-xenerico" id="chat">
+            <div class="flag-content">
+              <div class="images">
+              <img src="./media/Flags/Flag-img1.svg" alt="Teacher1" name="teacher">
+              <img src="./media/Flags/chat-icon.svg" alt="Chat icon">
+              <img src="./media/Flags/Flag-student.svg" alt="Student3" name="student">
+            </div>
+            <div>
+              <p name="video-message">
+                <strong>Adison Geidt</strong> had a chat with <strong>Jaxson Dorwart</strong>
+              </p>
+              <p name="video-title">
+                2 messages
+              </p>
+              <p name="video-date">
+                Dec 10, 2021 - 9:30AM
+              </p>
+            </div>
+            </div>
+            <div class="icon-background">
+            <img src="./media/Flags/messages.svg" alt="chat" id="chat"/>
+          </div>
+                </article>
+  </section>
+</div>
+
+<footer class="paginas">
+  <nav class="numpag">
+    <a href="#" class="flecha"><img src="./media/back 1 (1).svg" alt="atrás" id="atras"></a>
+    <a href="#seccion-newflags">1</a>
+    <a href="#seccion-oldflags">2</a>
+    <a href="#seccion-oldflags2">3</a>
+    <a href="#" class="flecha"><img src="./media/back 1.svg" alt="adiante" id="adiante"></a>
+  </nav>
+</footer>
+
+
+  <!-- <section id="paginas">
+  <nav>
+    <a href="#"><img src="./media/back 1 (1).svg" alt="atrás" id="atras"></a>
+    <a href="#seccion-newflags">1</a>
+    <a href="#seccion-oldflags">2</a>
+    <a href="#seccion-oldflags2">3</a>
+    <a href="#"><img src="./media/back 1.svg" alt="adiante" id="adiante"></a>
+  </nav>
+</section> -->
+</div>
+</main>
+ </body>
+
+</html>
