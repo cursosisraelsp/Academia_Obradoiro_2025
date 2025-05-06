@@ -1,0 +1,280 @@
+@media (width >= 1024px) {
+  .centrar-elementos-en-columna {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    height: var(--header-height-pc);
+    display: flex;
+    align-items: center;
+    width: var(--header-width-pc);
+  }
+
+  span[name="titulo"] {
+    font-size: var(--span-titulo-font-size-pc);
+    margin-left: var(--span-titulo-margin-left-pc);
+  }
+
+  main {
+    border: var(--main-border-pc);
+    width: var(--main-width-pc);
+    order: 2;
+    .buscador-and-new-teacher {
+      width: var(--buscador-teacher-width-pc);
+      height: var(--buscador-teacher-height-pc);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: var(--margin-bottom-buscador-teacher-pc);
+      .buscador {
+        width: var(--buscador-width-pc);
+        height: var(--buscador-height-pc);
+        display: flex;
+
+        .input-buscador {
+          display: flex;
+          align-items: center;
+          width: var(--input-buscador-width-pc);
+          margin-right: var(--input-buscador-margin-right-pc);
+          justify-content: space-around;
+          & > input {
+            width: var(--input-input-width-pc);
+          }
+        }
+
+        .filtro-actividade-teacher {
+          &:hover > .actividade-desplegable {
+            top: 45px;
+            opacity: 1;
+          }
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          width: var(--filtro-actividade-width-pc);
+          background-color: aliceblue;
+          position: relative;
+          margin-right: var(--filtro-actividade-margin-right-pc);
+          .actividade-desplegable {
+            width: 100%;
+            opacity: 0;
+            position: absolute;
+            top: -10px;
+            transition: opacity 1s, top 1s;
+            height: var(--actividade-desplegable-height-pc);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            .desplegable-contido {
+              display: block;
+              margin-left: var(--desplegable-contido-margin-left-pc);
+            }
+          }
+        }
+
+        .lupa {
+          width: 13%;
+          height: 38px;
+          background-color: blueviolet;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+
+      .new-teacher {
+        width: var(--new-teacher-width-pc);
+        height: 46px;
+        display: flex;
+        background-color: blueviolet;
+        align-items: center;
+        color: white;
+        & > img {
+          flex: 0.3;
+          width: 20px;
+          height: 20px;
+        }
+        & > span {
+          flex: 0.7;
+        }
+      }
+    }
+
+    .teachers {
+      width: var(--teachers-width-pc);
+      height: var(--teachers-height-pc);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: var(--margin-bottom-teachers-pc);
+      .dato-teacher {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: var(--dato-teacher-width-pc);
+        .imaxe-teacher {
+          flex: 0.2;
+        }
+        .nome-e-students-teacher {
+          display: flex;
+          flex-direction: column;
+          flex: 0.3;
+          span[name="numero-students"] {
+            color: blueviolet;
+          }
+        }
+        .actividade-teacher {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+        }
+      }
+      .observacions-teacher {
+        width: 40%;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        .advertencia-teacher {
+          display: flex;
+          align-items: center;
+        }
+        span[name="texto-advertencia-teacher"] {
+          color: red;
+        }
+      }
+      .decline-accept {
+        display: flex;
+        flex: var(--decline-accept-flex-pc);
+        justify-content: space-evenly;
+        .decline {
+          background-color: var(--decline-background-color-pc);
+          width: var(--decline-width-pc);
+          height: var(--decline-height-pc);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: var(--decline-border-radius-pc);
+          color: var(--decline-color-pc);
+        }
+        .accept {
+          background-color: var(--accept-background-color-pc);
+          width: var(--decline-width-pc);
+          height: var(--decline-height-pc);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: var(--decline-border-radius-pc);
+          color: var(--decline-color-pc);
+        }
+      }
+    }
+    .teachers-2 {
+      width: var(--teachers-width-pc);
+      height: var(--teachers-height-pc);
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-bottom: var(--margin-bottom-teachers-pc);
+      .dato-teacher-2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: var(--dato-teacher-width-pc);
+        .imaxe-teacher {
+          flex: 0.3;
+        }
+        .nome-e-students-teacher {
+          display: flex;
+          flex-direction: column;
+          flex: 0.4;
+          span[name="numero-students"] {
+            color: blueviolet;
+          }
+        }
+        .actividade-teacher {
+          display: flex;
+          flex-direction: column;
+          flex: 1;
+        }
+      }
+    }
+  }
+
+  aside {
+    order: 1;
+    width: var(--width-aside-pc);
+    display: flex;
+    flex-direction: column;
+    .menu-aside {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .parte-etiquetas-logos {
+      display: block;
+      flex: var(--parte-etiquetas-flex-pc);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      .primer-elemento {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+    .seccion-navegacion {
+      flex: var(--parte-seccion-navegacion-flex-pc);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  .elemento-logo-academia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: var(--elemento-logo-border-pc);
+    border-radius: var(--elemento-logo-border-radius-pc);
+    width: var(--elemento-logo-width-pc);
+    .imaxe-figma {
+      border: var(--imaxe-figma-border-pc);
+      border-radius: var(--imaxe-figma-border-radius-pc);
+      padding: var(--imaxe-figma-padding-pc);
+      display: flex;
+      align-items: center;
+    }
+    .textos-elemento-logo-academia {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+    .icono-figma {
+      width: var(--icono-figma-width-pc);
+      height: var(--icono-figma-height-pc);
+      padding: var(--icono-figma-padding-pc);
+    }
+  }
+  .logout {
+    display: flex;
+    align-items: center;
+  }
+
+  span[name="new-link"] {
+    font-size: var(--new-link-font-size-pc);
+  }
+
+  .requests {
+    width: var(--requests-width-pc);
+    margin-bottom: var(--margin-bottom-requests-pc);
+  }
+
+  .lina-separacion {
+    width: var(--lina-separacion-width-pc);
+    height: var(--lina-separacion-height-pc);
+    border-left: var(--lina-separacion-border-left-pc);
+  }
+}

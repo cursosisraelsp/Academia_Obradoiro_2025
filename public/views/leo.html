@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/styles.leo.css" />
+    <link rel="stylesheet" href="./CSS/variables.leo.css" />
+    <link rel="stylesheet" href="./CSS/Dispositivos/dispositivo.mobil.leo.css" />
+    <link rel="stylesheet" href="./CSS/Dispositivos/dispositivo.pc.leo.css" />
+  </head>
+  <body>
+    <scroll-container>
+    <main class="centrar-elementos-en-columna">
+      <header>
+        <span name="titulo" class="krona-one-regular"> Teachers </span>
+      </header>
+      <section class="buscador-and-new-teacher">
+        <div class="buscador">
+          <div class="input-buscador box-shadow-xenerico">
+            <input type="text" placeholder="Introduce o teacher" />
+            <div class="lupa box-shadow-xenerico">
+              <img src="./Imaxes/Iconos/Lupa.svg" alt="imaxen lupa" />
+            </div>
+          </div>
+          <div class="filtro-actividade-teacher box-shadow-xenerico">
+            <span class="roboto-soft"
+              >Sort by <span class="roboto-bolder">Last activity</span></span
+            >
+            <img src="./Imaxes/Iconos/Frecha_abaixo.svg" alt="Frecha_abaixo" />
+          <div class="actividade-desplegable roboto-soft box-shadow-xenerico">
+              <a class="desplegable-contido" href="#"> Last activity </a>
+              <a class="desplegable-contido" href="#"> Name </a>
+              <a class="desplegable-contido" href="#"> Date added </a>
+            </div>
+          </div>
+        <div class="new-teacher box-shadow-xenerico">
+          <img src="./Imaxes/Iconos/cruz.svg" alt="cruz" />
+          <span class="roboto-soft">New Teacher</span>
+        </div>
+      </section>
+      <div class="requests">
+        <span name="new-link" class="roboto-bolder"> 2 new link requests</span>
+      </div>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img
+              class="imaxe-recadro-morado"
+              src="imaxes/usuarios/teachers/alicia_smith.svg"
+              alt="teacher 1"
+            />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span name="nome-teacher" class="roboto-bolder">
+              Alicia Smith
+            </span>
+            <span name="numero-students" class="roboto-bolder">
+              21 students
+            </span>
+          </div>
+        </div>
+        <div class="lina-separacion"></div>
+        <div class="decline-accept">
+          <div class="decline">
+            <img src="./Imaxes/Iconos/X.svg" alt="decline" />
+            <span class="roboto-soft"> Decline </span>
+          </div>
+          <div class="accept">
+            <img src="./Imaxes/Iconos/Check.svg" alt="accept" />
+            <span class="roboto-soft"> Accept </span>
+          </div>
+        </div>
+      </section>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img
+              class="imaxe-recadro-morado"
+              src="imaxes/usuarios/teachers/Ben Wallace.svg"
+              alt="teacher 1"
+            />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span name="nome-teacher" class="roboto-bolder"> Ben Wallace </span>
+            <span name="numero-students" class="roboto-bolder">
+              9 students
+            </span>
+          </div>
+        </div>
+        <div class="lina-separacion"></div>
+        <div class="decline-accept">
+          <div class="decline">
+            <img src="./Imaxes/Iconos/X.svg" alt="decline" />
+            <span class="roboto-soft"> Decline </span>
+          </div>
+          <div class="accept">
+            <img src="./Imaxes/Iconos/Check.svg" alt="accept" />
+            <span class="roboto-soft"> Accept </span>
+          </div>
+        </div>
+      </section>
+      <div class="requests">
+        <span name="new-link" class="roboto-bolder"> All teachers </span>
+      </div>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img class="imaxe-recadro-morado" src="imaxes/usuarios/teachers/Talan Kenter.svg" />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span class="roboto-bolder">Talan Kenter</span>
+            <span name="numero-students" class="roboto-bolder">4 students</span>
+          </div>
+          <div class="actividade-teacher">
+            <span class="roboto-bolder">Last activity on</span>
+            <span class="roboto-soft cor-soft">June 6, 2022 - 17:45 PM</span>
+          </div>
+        </div>
+        <div class="observacions-teacher">
+          <span class="roboto-soft cor-soft">Sent a voice message to
+            <span class="roboto-soft"> Jackson Dorwart </span>
+          <div class="advertencia-teacher">
+            <img src="./Imaxes/Iconos/microfono.svg" alt="microfono" /><span
+              name="texto-microfono-teacher"
+              class="roboto-bolder color-morado"
+            >
+              (00:54)</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img class="imaxe-recadro-morado" src="imaxes/usuarios/teachers/Carter Geidt.svg" />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span class="roboto-bolder">Carter Geidt</span>
+            <span name="numero-students" class="roboto-bolder">6 students</span>
+          </div>
+          <div class="actividade-teacher">
+            <span class="roboto-bolder">Last activity on</span>
+            <span class="roboto-soft cor-soft">June 5, 2022 - 14:30 PM</span>
+          </div>
+        </div>
+        <div class="observacions-teacher">
+          <span class="roboto-soft cor-soft"> Had a chat with
+            <span class="roboto-soft"> Nolan Franci </span>
+          <div class="advertencia-teacher">
+            <img src="./Imaxes/Iconos/mensaxe.svg" alt="mensaxe" /><span
+              name="texto-mensaxe-teacher"
+              class="roboto-bolder color-morado"
+            >
+              7 messages</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img class="imaxe-recadro-morado" src="imaxes/usuarios/teachers/Nathan Frost.svg" />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span class="roboto-bolder">Nathan Frost</span>
+            <span name="numero-students" class="roboto-bolder">14 students</span>
+          </div>
+          <div class="actividade-teacher">
+            <span class="roboto-bolder">Last activity on</span>
+            <span class="roboto-soft cor-soft">June 5, 2022 - 11:45 AM</span>
+          </div>
+        </div>
+        <div class="observacions-teacher">
+          <span class="roboto-soft cor-soft"
+            >Got rejected when trying upload a video to Patri...</span
+          >
+          <div class="advertencia-teacher">
+            <img src="./Imaxes/Iconos/icono_aviso.svg" alt="aviso" /><span
+              name="texto-advertencia-teacher"
+              class="roboto-bolder"
+            >
+              Part 5 (10:25)</span
+            >
+          </div>
+        </div>
+      </section>
+      <section class="teachers box-shadow-xenerico">
+        <div class="dato-teacher">
+          <div class="imaxe-teacher">
+            <img class="imaxe-recadro-morado" src="imaxes/usuarios/teachers/Adison Frost.svg" />
+          </div>
+          <div class="nome-e-students-teacher">
+            <span class="roboto-bolder">Adison Frost</span>
+            <span name="numero-students" class="roboto-bolder">12 students</span>
+          </div>
+          <div class="actividade-teacher">
+            <span class="roboto-bolder">Last activity on</span>
+            <span class="roboto-soft cor-soft">June 4, 2022 - 11:45 AM</span>
+          </div>
+        </div>
+        <div class="observacions-teacher">
+          <div class="observacions-teacher-interior">
+            <span class="roboto-soft cor-soft">Send a video to Maren Levin</span>
+          </div>
+          <div class="advertencia-teacher">
+            <img src="./Imaxes/Iconos/triangulo.svg" alt="tutorial" /><span
+              name="texto-tutorial-teacher"
+              class="roboto-bolder color-morado"
+            >
+              Beginner level tutorial (10:25)</span
+            >
+          </div>
+        </div>
+      </section>
+      
+    </main>
+    
+    <aside>
+      <section class="parte-etiquetas-logos">
+        <div class="primer-elemento">
+          <img src="./Imaxes/Iconos/nota musical.svg" alt="nota musical" />
+          <span name="titulo-musical" class="krona-one-regular">SWEETNOTE</span>
+        </div>
+        <div class="elemento-logo-academia">
+          <div class="imaxe-figma">
+            <img
+              class="icono-figma"
+              src="./Imaxes/Iconos/icono figma.svg"
+              alt="icono de figma"
+            />
+          </div>
+          <div class="textos-elemento-logo-academia">
+            <span name="partes-logos" class="roboto-bolder">Academy Name</span>
+            <span name="partes-logos" class="roboto-soft cor-soft">Admin</span>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section class="seccion-navegacion">
+        <nav class="menu-aside">
+          <a href="#">
+            <img src="./Imaxes/Iconos/CirclesFour.png" alt="imaxe" />
+            <span name="seccion-navegacion" class="roboto-soft cor-soft"
+              >Dashboard</span
+            >
+          </a>
+          <a href="#">
+            <img src="./Imaxes/Iconos/ChalkboardTeacher.png" alt="imaxe" />
+            <span name="seccion-navegacion" class="roboto-soft cor-soft"
+              >Teachers</span
+            >
+          </a>
+          <a href="#">
+            <img src="./Imaxes/Iconos/GraduationCap.png" alt="imaxe" />
+            <span name="seccion-navegacion" class="roboto-soft cor-soft"
+              >Students</span
+            >
+          </a>
+          <a href="#">
+            <img src="./Imaxes/Iconos/GearSix.png" alt="imaxe" />
+            <span name="seccion-navegacion" class="roboto-soft cor-soft"
+              >Settings</span
+            >
+          </a>
+        </nav>
+
+        <div class="logout">
+          <img src="./Imaxes/Iconos/iconoLogout.svg" alt="icono logout" />
+          <span name="logout">Log Out</span>
+        </div>
+      </section>
+    </aside>
+  </scroll-container>
+  </body>
+</html>
