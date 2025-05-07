@@ -31,6 +31,10 @@ app.get("/ivan",(req,res)=>{
 app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/marilo.teachers.html"))
 })
+// <a href="/settings">enlace</a>
+app.get("/settings",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/FernandoyBrais.html"))
+})
 
 
 
