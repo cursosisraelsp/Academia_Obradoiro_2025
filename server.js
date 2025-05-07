@@ -19,6 +19,14 @@ app.get("/dashboard",(req,res)=>{
 app.get("/index",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/index.html"))
 })
+// <a href="/password">enlace</a>
+app.get("/password",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/password.html"))
+})
+// <a href="/ivan">enlace</a>
+app.get("/ivan",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/ivan.html"))
+})
 // <a href="/teachers">enlace</a>
 app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/marilo.teachers.html"))

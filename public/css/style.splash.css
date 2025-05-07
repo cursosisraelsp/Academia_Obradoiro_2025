@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left {
+    flex: 1;
+    background: url('dispositivos/splash.png') no-repeat center center/cover;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.music-icon {
+    font-size: 26px;
+    margin-right: 8px;
+}
+
+.right {
+    width: 45%;
+    background: #f9f6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    width: 80%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #7b3ff1;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 100%;
+    background: #7b3ff1;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5e2bc3;
+}
+
+
+
+/*AÑADIDO IVAN*/
+
+.imagen-inicio {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 55%;
+  
+    img[name="img-portada"]{
+      position: absolute;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+    }  
+    
+    .texto-imagen {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+    }
+}
+.krona {
+ font-family: "Krona One", serif;
+font-style: normal;
+}
+.regular {
+    font-weight: 400;
+}
+.color-blanco {
+    color: var(--color-blanco);
+}
+.font-size-34 {
+    font-size: 34px;
+}
+:root {
+    --color-blanco: white;
+}

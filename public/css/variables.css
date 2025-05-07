@@ -1,50 +1,30 @@
 :root {
-        
-  --font-ppal: "krona one", serif; 
-  --font-secondary: "helvetica", sans-serif;
-  --font-tertiary: Montserrat;
-  --font-weight-ppal: 500;
-  --font-weight-secondary: 700;
-  --font-weight-tertiary: 300;
-  --font-emphasis: bold;
-  --font-size-header: 34px;
-  --font-size-h2: 22px;
-  --font-size-texto: 12px;
-  --font-color-ppal: black; 
-  --font-color-secondary: #726b76;
+    --color-violeta: rgba(164, 92, 243, 1);
+    --color-violeta-fondo: rgb(248, 242, 250);
+    --color-negro: black;
+    --color-gris: #726b76;
+    --color-gris-claro: rgba(243, 241, 251, 1);
+    --color-blanco: white;
+    --color-rojo: red;
+    --color-naranja: #FF8C42;
+    --color-azul:#06AED5;
 
-  --color-alert: red;
-  --color-ppal: #A45CF3;
-  --color-students:#06AED5;
-  --color-none: transparent;
-  --color-txt-secundario-opacidad: #726b7620;
-  --bg-color-body: #ffffff;
-  --color-bordes: #f3f1fb;
-  --bg-color-gradient:#e8d8f770;
-  --color-shadow: #97777759;
-  --color-ppal-opacidad: #a45cf320;
+    --box-shadow: rgba(38, 31, 43, 0.08) 0px 2px 8px 0px;
+    --box-border-radius: 21px;
 
-  --box-shadow: 0px 3px 6px -3px #977777;
-  --border-radius: 12px;
+    --circle-radius:50%;
 
-  --alignitems-center: center;
+    --section-width: 90%;
+    --aside-width: 85%;
+
+    --apartados-height: 52px;
+
+    --icono-size: 21px;
+    --fotos-size: 60px;
+
+    --line-height: 24px;
+
+    --pading-derecha: 0px 5px 0px 0px;
 
   
-    /*--bg-color-secundario: white; --bg-color-body:*/
-    /*--bg-color-body: #fcfafe;*/
-    /* --color-principal: #a45cf3; --color-ppal*/
-    /*--color-principal-opacidad: #a45cf320; NO ESTA EN EL CODIGO*/
-    /*--color-txt-principal: black; --font-color-ppal*/
-    /*--color-txt-secundario: #726b76;--font-color-secondary*/  
-    /*--font-family-principal: Helvetica; --font-secondary */
-    /*--font-family-secundaria: Krona One; --font-ppal*/
-    /* --font-family-terciaria: Montserrat; --font-terciary*/
-    /* --font-weight-principal: 500;  --font-weight-ppal */
-    /* --font-weight-secundaria: 700; --font-weight-secondary */
-    /* --font-weight-terciaria: 300; --font-weight-terciary */
-    /*--color-ppal-2: white;*/
-    /*--color-ppal-3: #e8d8f770; --font-color-secondary*/
-    /*--color-imp: #FF3C38; --color-alert*/
-    /* --border-img-color: #06AED5; --color-students*/
-   
   }

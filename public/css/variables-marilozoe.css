@@ -1,0 +1,50 @@
+:root {
+        
+  --font-ppal: "krona one", serif; 
+  --font-secondary: "helvetica", sans-serif;
+  --font-tertiary: Montserrat;
+  --font-weight-ppal: 500;
+  --font-weight-secondary: 700;
+  --font-weight-tertiary: 300;
+  --font-emphasis: bold;
+  --font-size-header: 34px;
+  --font-size-h2: 22px;
+  --font-size-texto: 12px;
+  --font-color-ppal: black; 
+  --font-color-secondary: #726b76;
+
+  --color-alert: red;
+  --color-ppal: #A45CF3;
+  --color-students:#06AED5;
+  --color-none: transparent;
+  --color-txt-secundario-opacidad: #726b7620;
+  --bg-color-body: #ffffff;
+  --color-bordes: #f3f1fb;
+  --bg-color-gradient:#e8d8f770;
+  --color-shadow: #97777759;
+  --color-ppal-opacidad: #a45cf320;
+
+  --box-shadow: 0px 3px 6px -3px #977777;
+  --border-radius: 12px;
+
+  --alignitems-center: center;
+
+  
+    /*--bg-color-secundario: white; --bg-color-body:*/
+    /*--bg-color-body: #fcfafe;*/
+    /* --color-principal: #a45cf3; --color-ppal*/
+    /*--color-principal-opacidad: #a45cf320; NO ESTA EN EL CODIGO*/
+    /*--color-txt-principal: black; --font-color-ppal*/
+    /*--color-txt-secundario: #726b76;--font-color-secondary*/  
+    /*--font-family-principal: Helvetica; --font-secondary */
+    /*--font-family-secundaria: Krona One; --font-ppal*/
+    /* --font-family-terciaria: Montserrat; --font-terciary*/
+    /* --font-weight-principal: 500;  --font-weight-ppal */
+    /* --font-weight-secundaria: 700; --font-weight-secondary */
+    /* --font-weight-terciaria: 300; --font-weight-terciary */
+    /*--color-ppal-2: white;*/
+    /*--color-ppal-3: #e8d8f770; --font-color-secondary*/
+    /*--color-imp: #FF3C38; --color-alert*/
+    /* --border-img-color: #06AED5; --color-students*/
+   
+  }

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
+  <link href="./css/styles.css" rel="stylesheet"/>
+  <link href="./css/variables.css" rel="stylesheet"/>
+  <link href="./css/dispositivos/dispositivo.movil.css" rel="stylesheet">
+  <link href="./css/dispositivos/dispositivo.pc.css" rel="stylesheet">
+  <link href="./css/dispositivos/dispositivo.tablet.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <header class="cabeza-pc">
+      <span class="krona regular font-size-34">Dashboard</span>
+    </header>
+
+    <section class="link-request">
+      <div class="campana">
+        <img src="imaxes/Icono-Campana.svg" alt="campana">
+      </div>
+      <div class="requests">
+        <span class="roboto bold">You have 2 new link requests from teachers</span>
+        <span class="roboto bold color-naranja">Show all</span>
+      </div>
+      <div class="flecha-derecha">
+        <img src="imaxes/Icono-FlechaDerecha.svg" alt="flecha derecha">
+      </div>
+    </section>
+        
+    <section class="activity-buscador">
+      <div class="activity-alltime">
+        <div class="activity">
+          <div class="recent"><span class="roboto bold color-blanco">Recent activity</span></div>
+          <div class="flags"><span class="roboto bold">Flags</span></div>
+        </div>
+        <div class="alltime">
+          <span class="roboto bold">All time</span>
+          <img src="imaxes/Icono-FlechaAbajo.svg" alt="flecha abajo">
+        </div>
+      </div>
+      <div class="buscador">
+        <input name="buscador-teacher" type="text" placeholder="Search"/>
+        <img src="imaxes/Icono-Lupa.svg" alt="lupa" />       
+     </div>  
+    </section>
+
+    <section class="profes">
+      <scroll-container>
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe1.png" name="imaxe-profe" alt="profe 1">
+            <img src="imaxes/Icono-Camara.svg" alt="icono camara">
+            <img src="imaxes/alumno1.png" name="imaxe-alumno" alt="alumno 1">
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">Talan Kenter <span class="regular">sent a video to</span> Jaxson Dorwart</span>
+            <span class="roboto bolder color-violeta">Beginner level tutorials (10:25)</span>
+            <span class="roboto regular color-gris">Today, 14:30PM</span>
+          </div>
+          <div class="enlaces-teachers">
+            <video src="media/video.mp4" controls></video>
+          </div>
+        </article>
+
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe2.png" name="imaxe-profe" alt="profe 2">
+            <img src="imaxes/Icono-Mensaje.svg" alt="icono mensaje">
+            <img src="imaxes/alumno2.png" name="imaxe-alumno" alt="alumno 2">
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">Adison Geidt <span class="regular">had a chat with</span> Maren Levin</span>
+            <span class="roboto bolder color-violeta">8 messages</span>
+            <span class="roboto regular color-gris">Today, 12:30PM</span>
+          </div>
+          <div class="enlaces-teachers">
+            <img src="imaxes/Icono-Chat.svg" alt="icono chat">
+          </div>
+        </article>
+
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe2.png" name="imaxe-profe" alt="profe 2">
+            <img src="imaxes/Icono-Microfono.svg" alt="icono microfono">
+            <img src="imaxes/alumno2.png" name="imaxe-alumno" alt="alumno 2">
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">Adison Geidt <span class="regular">sent a voice message to</span> Maren Levin</span>
+            <span class="roboto bolder color-violeta">(00:54)</span>
+            <span class="roboto regular color-gris">Today, 11:05PM</span>
+          </div>
+          <div class="enlaces-teachers">
+            <audio src="media/audio.mp3" controls></audio>
+          </div>
+        </article>
+
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe3.png" name="imaxe-profe" alt="profe 3">
+            <img src="imaxes/Icono-Mensaje.svg" alt="icono mensaje">
+            <span class="roboto bold color-azul">NF</span>
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">Carter Geidt <span class="regular">had a chat with</span> Nolan Franci</span>
+            <span class="roboto bolder color-violeta">5 messages</span>
+            <span class="roboto regular color-gris">Today, 07:56AM</span>
+          </div>
+          <div class="enlaces-teachers">
+            <img src="imaxes/Icono-Chat.svg" alt="icono chat">
+          </div>
+        </article>
+
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe5.png" name="imaxe-profe" alt="profe 5">
+            <img src="imaxes/Icono-camara.svg" alt="icono camara">
+            <img src="imaxes/alumno5.png" name="imaxe-alumno" alt="alumno 5">
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">Alicia Smith <span class="regular">sent a video to</span> Kianna Dias</span>
+            <span class="roboto bolder color-violeta">Advanced level tutorials (5:46)</span>
+            <span class="roboto regular color-gris">Yesterday, 20:47PM</span>
+          </div>
+          <div class="enlaces-teachers">
+            <video src="media/video.mp4" controls></video>
+          </div>
+        </article>
+
+        <article class="teachers">
+          <div class="iconos-teachers">
+            <img src="imaxes/profe4.png" name="imaxe-profe" alt="profe 4">
+            <img src="imaxes/Icono-microfono.svg" alt="icono microfono">
+            <img src="imaxes/alumno4.png" name="imaxe-alumno" alt="alumno 4">
+          </div>
+          <div class="textos-teachers">
+            <span class="roboto bolder color-negro">George Floyd <span class="regular">sent a voice message to</span> Derek Chauvin</span>
+            <span class="roboto bolder color-violeta">I can't breathe</span>
+            <span class="roboto regular color-gris">May 25, 2020</span>
+          </div>
+          <div class="enlaces-teachers">
+            <audio src="media/audio.mp3" controls></audio>
+          </div>
+        </article>
+      </scroll-container>
+    </section>
+  </main>
+
+  <aside>
+    <section class="parte-etiquetas-logos">
+      <div class="primer-elemento">
+        <img src="imaxes/Icono-NotaMusical.svg" alt="nota musical" />
+        <span name="titulo-musical" class="krona regular font-size-titulo">sweetnote</span>
+      </div>
+      <div class="elemento-logo-academia">
+        <div class="imaxe-figma">
+          <img src="imaxes/Icono-Figma.svg" alt="logo de figma" />
+        </div>
+        <div class="texto-figma">
+          <span name="logout" class="montserrat bold font-size-14">Academy Name</span>
+          <span name="logout" class="montserrat regular color-gris font-size-14">Admin</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="parte-botones">
+      <section class="seccion-navegacion">
+        <nav>
+          <a href="/dashboard">
+            <img src="./imaxes/Icono-Dashboard.svg" alt="dashboard" />
+            <span name="seccion-navegacion" class="montserrat bold font-size-aside">Dashboard</span>
+          </a>
+          <a href="/teachers">
+            <img src="./imaxes/Icono-Teachers.svg" alt="teachers" />
+            <span name="seccion-navegacion" class="montserrat bold font-size-aside">Teachers</span>
+          </a>
+          <a href="/students">
+            <img src="./imaxes/Icono-Students.svg" alt="students" />
+            <span name="seccion-navegacion" class="montserrat bold font-size-aside">Students</span>
+          </a>
+          <a href="#">
+            <img src="./imaxes/Icono-Settings.svg" alt="settings" />
+            <span name="seccion-navegacion" class="montserrat bold font-size-aside">Settings</span>
+          </a>
+        </nav>
+      </section>
+
+      <section class="logout">
+        <img src="imaxes/Icono-LogOut.svg" alt="logout" />
+        <a href="/index"><span name="logout" class="roboto bold font-size-aside">Log Out</span></a>
+      </section>
+    </section>
+  </aside>
+</body>
+</html>
