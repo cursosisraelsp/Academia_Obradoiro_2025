@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #e5e5e5;
+}
+.estilo-div {
+  display: flex;
+  justify-content: space-between;
+  width: 244px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+
+.estilo-img {
+  background-color: blueviolet;
+  padding: 10px;
+  border-radius: 12px;
+  margin: 3px;
+}
+.estilo-input {
+  border: transparent;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+.estilo-filtro {
+  background-color: #ffffff;
+  border-radius: 15px; /* por se acaso os elementos non estiveran en línea coloco un flex */
+}
+.estilo-shadow {
+}
+.estilo-shadow:hover,
+. .estilo-shadow:focus {
+  box-shadow: 1px 4px 5px 1px #808980;
+}
+.estilo-distribucion {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cor-marron-claro {
+  background-color: #a3937f;
+}
+.cor-azul-auga {
+  background-color: aqua;
+}
+.cor-gray {
+  color: gray;
+}
+.cor-black {
+  color: black;
+}
+.anchura-test-borrar {
+  width: 145px;
+}
+.anchura-test-borrar-2 {
+  width: 200px;
+}
+.anchura-test-borrar-3 {
+  width: 460px;
+}
+.alineo-no-centro {
+  align-items: center;
+}
+
+.estilo-boton-teacher {
+  background-color: purple;
+  color: white;
+  border-radius: 15px;
+}
