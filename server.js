@@ -30,6 +30,9 @@ app.get("/index-Marina",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/index-Marina.html"))
 })
 
+app.get("/andre",(req,res)=>{
+    res.sendFile(path.join(__dirname,"./public/views/andre.html"))
+})
 
 //START SERVER
 app.listen(3000, function () {
