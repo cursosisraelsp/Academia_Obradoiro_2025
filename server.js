@@ -7,7 +7,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public")));
 
 // GETTERS
-// <a href="/ivan">enlace</a>
+
 app.get("/ivan",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/ivan.html"))
 })
@@ -23,9 +23,6 @@ app.get("/teachers",(req,res)=>{
 
 //
 
-app.get("/index-Marina",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./public/views/index-Marina.html"))
-})
 
 app.get("/andre",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/andre.html"))
