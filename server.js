@@ -15,10 +15,7 @@ app.get("/ivan",(req,res)=>{
 app.get("/password",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/password.html"))
 })
-// <a href="/index">enlace</a>
-app.get("/index",(req,res)=>{
-    res.sendFile(path.join(__dirname,"./public/views/index.html"))
-})
+
 // <a href="/teachers">enlace</a>
 app.get("/teachers",(req,res)=>{
     res.sendFile(path.join(__dirname,"./public/views/teachers.html"))
